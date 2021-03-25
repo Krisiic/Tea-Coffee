@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Navbar & Header */
+
+.nav {
+    font-size: x-large;
+    height: 100px;
+    background-color: white;
+    padding-top: 25px;
+    opacity: 90%;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: lightblue;
+}
+
+
+
+
+
+
+/* Home */
+
+#home {
+    background-image: url(/IMG/home-bg.jpg);
+    height: 815px;
+}
+
+#home-h1 {
+    font-size: 5em;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#home-p {
+    font-size: 2em;
+    text-align: center;
+}
+
+#morebtn {
+    background: transparent;
+    border: none;
+    margin-left: 47%;
+    margin-top: 40px;
+    padding: none;
+}
+
+/* Coffee */
+
+#sec2 {
+    height: 815px;
+    background-color: white;
+    background-image: url(/IMG/sec2-bg.jpg);
+    width: fill;
+}
+
+#coffee-img {
+    margin-top: 190px;
+}
+
+#sec2-h1 {
+    float: right;
+    margin-top: 150px;
+    padding-right: 120px;
+    font-size: 3em;
+}
+
+#sec2-p {
+    float: right;
+    width: 50%;
+    margin-top: -280px;
+    font-size: 1.3em;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+/* Tea */
+
+#tea {
+    background-image: url(/IMG/tea-bg.jpg);
+    height: 815px;
+    margin-top: 230px;
+    padding-top: 140px;
+}
+
+#tea-img {
+    margin-top: 100px;
+}
+
+#tea-h1 {
+    float: right;
+    padding-right: 120px;
+    font-size: 3em;
+    margin-top: 70px;
+}
+
+#tea-p {
+    float: right;
+    width: 50%;
+    margin-top: -280px;
+    font-size: 1.3em;
+}
